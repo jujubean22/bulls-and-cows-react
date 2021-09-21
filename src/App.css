@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@100;400&family=Gluten&display=swap');
+
+html{
+  background-image: url(./assets/bullsandcows.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+*{
+  font-family: 'Gluten', cursive;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.Header{
+  text-align: center;
+  font-size: 12vh;
+
+}
+
+h3{
+  text-align:center;
+  font-size: 4vh;
+}
+
+form{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px
+}
+
+.number{
+  margin: 20px;
+  width: 20vw;
+  padding: 1vh;
+  border-radius: 15px;
+  font-size: 4vh;
+}
+
+.submit{
+  width: 10vw;
+  padding: 1vh;
+  border-radius: 15px;
+  font-size: 4vh;
+}
+
+
+#historyLogs{
+  margin-left: 35vw;
+  margin-right: 30vw;
+  font-size: 3vh;
+  text-align: justify;
+  border: none;
+  padding: 5px;
+  background-color: transparent;
+}
